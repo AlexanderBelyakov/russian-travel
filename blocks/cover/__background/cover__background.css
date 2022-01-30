@@ -1,0 +1,18 @@
+.cover__background {
+    margin: 0 auto;
+    max-width: 560px;
+    position: absolute;
+    top: 0; 
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+  }
+  @media screen and (max-width: 425px) {
+    .cover__background {
+      margin: 0 auto;
+      width: 288px;
+    }
+  }
