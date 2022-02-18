@@ -3,21 +3,16 @@
     min-height: 62.5%;
     max-width: 100%;
   }
+
   @media screen and (min-width: 769px) and (max-width: 1024px) {
     .lead__image {
       max-height: 580px;
-      max-width: 100%;
     }
   }
+
   @media screen and (min-width: 426px) and (max-width: 768px) {
     .lead__image {
       max-height: 480px;
-      max-width: 100%;
-    }
-  }
-  @media screen and (max-width: 425px) {
-    .lead__image {
-      margin: 0;
     }
   }
   
