@@ -9,7 +9,7 @@
     justify-content: space-between;
 }
 
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (min-width: 612px) and (max-width: 768px) {
     .footer {
         padding-top: 88px;
         padding-left: 24px;
@@ -17,7 +17,7 @@
     }  
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 611px) {
     .footer {
         padding: 64px 0 24px;
         flex-direction: column;
