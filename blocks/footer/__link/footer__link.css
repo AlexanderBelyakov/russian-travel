@@ -1,26 +1,32 @@
 .footer__link {
-    margin: 0;
-    padding-left: 24px;
-    color: #FFFFFF;
-    text-decoration: none;
-    transition: linear .5s;
+  margin: 0;
+  padding-left: 24px;
+  color: #FFFFFF;
+  text-decoration: none;
+  transition: linear .5s;
 }
 
 .footer__link:hover {
-    opacity: 0.5;
+  opacity: 0.5;
 }
 
 .footer__link:nth-child(1) {
-    padding-left: 0;
+  padding-left: 0;
+}
+
+@media screen and (min-width: 12px) and (max-width: 1024px) {
+    .footer__link {
+      padding-left: 18px;
+    }
 }
 
 @media screen and (max-width: 611px) {
     .footer__link {
-        padding-left: 16px;
-        padding-top: 32px;
+      padding-left: 16px;
+      padding-top: 32px;
     }
     .footer__link:nth-child(1) {
-        padding-left: 16px;
-        padding-top: 0;
+      padding-left: 16px;
+      padding-top: 0;
     }
 }
