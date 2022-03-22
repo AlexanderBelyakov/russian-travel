@@ -1,10 +1,11 @@
 .web-site__link {
-    font-size: 18px;
-    line-height: 22px;
-    font-weight: 400;
-    color: #ffffff;
-    transition: linear .5s;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #ffffff;
+  transition: linear .5s;
   }
-  .web-site__link:hover {
-    opacity: .5;
+
+.web-site__link:hover {
+  opacity: .5;
   }

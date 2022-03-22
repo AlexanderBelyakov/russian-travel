@@ -1,0 +1,9 @@
+.wraper {
+    display: none;
+}
+
+@media screen and (max-width: 425px) {
+  .wraper {
+    display: block;
+  }    
+}
