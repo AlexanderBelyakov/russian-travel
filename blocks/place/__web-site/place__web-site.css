@@ -1,10 +1,10 @@
-.web-site {
+.place__web-site {
     margin: 0;
     align-self: end;
   }
 
   @media screen and (max-width: 425px) {
-    .web-site {
+    .place__web-site {
       padding-left: 16px;
     }
   }
