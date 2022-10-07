@@ -9,7 +9,7 @@
     }
   }
 
-  @media screen and (min-width: 426px) and (max-width: 768px) {
+  @media screen and (min-width: 636px) and (max-width: 768px) {
     .place__image {
       max-width: 340px;
     }
@@ -18,5 +18,11 @@
   @media screen and (max-width: 635px) {
     .place__image {
       max-width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 747px) {
+    .place__image {
+      justify-self: center;
     }
   }
